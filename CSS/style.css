@@ -140,7 +140,7 @@ section .catalog {
 section .filter-card {
     width: 980px;
     height: 150px;
-    background: var(--gray);
+    background: #dededea6;
     border-radius: 8px;
     margin: 0 auto;
     display: flex;
