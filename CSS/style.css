@@ -45,6 +45,13 @@ nav {
     justify-content: space-between;
 }
 
+nav .content-sub {
+    margin-top: 60px;
+    margin-left: -660px;
+    font-size: 18px;
+    color: white;
+}
+
 .brand {
     font-size: 24px;
     color: var(--blue);
@@ -404,7 +411,12 @@ footer .last {
 }
 
 /* Responsive adjustments */ 
-@media (max-width: 576px) {
+@media (max-width: 576px), (max-width: 667px),(max-width: 765px), (max-width: 1024px)  {
+    nav .content-sub {
+        display: flex;
+        position: absolute;
+        margin-left: 3px;
+    }
     nav ul li {
         display: none;
     }
